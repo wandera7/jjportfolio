@@ -1,8 +1,22 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import {FaBars, FaTimes} from 'react-icons/fa'
 const NavBar = () => {
+    const links=["Home","About", "Skills" ,"Contact"]
+    const [showIcon,setShowIcon] =useState(false)
   return (
-    <div>NavBar</div>
+    <div className='flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed'>
+        <div>
+            <h1 className='text-5xl font-signature ml-2'>Wanderajr</h1>
+        </div>
+        <ul className='hidden md:flex '>
+        {
+            links.map((link,index)=><li key={index} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">{link}</li>)
+        }
+        </ul>
+        <div onClick={()=>setShowIcon(!showIcon)} className='cursor-pointer pr-4 z-10 text-gray-500'>
+           {showIcon? <FaTimes size={30}/>: <FaBars size={30}/> }
+        </div>
+    </div>
   )
 }
 
