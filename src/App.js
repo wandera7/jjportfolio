@@ -4,10 +4,7 @@
 function App() {
   return (
     <div>
-     <h1 className="text-4xl bold">
-     JOE BIDEN
-
-     </h1>
+     <h1 className="font-bold text-5xl font-signature">kilosh</h1>
     </div>
   );
 }
