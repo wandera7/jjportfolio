@@ -3,8 +3,9 @@
 
 function App() {
   return (
-    <div className="App">
-     <h1 className="text-">
+    <div>
+     <h1 className="text-4xl bold">
+     JOE BIDEN
 
      </h1>
     </div>
