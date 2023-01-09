@@ -15,8 +15,6 @@ const Skills = () => {
                 <div key={id} className='shadow-md rounded-lg py-2 shadow-gray-600 '>
                     <img src={source} alt={source} className='w-20 mx-auto'/>
                     <p className='m-4 '>{name}</p>
-                        {/* <button className='w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105'>Demo</button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105'>Code</button> */}
                 </div>
                     )
                 })
