@@ -9,9 +9,8 @@ const About = () => {
              About
             </p>
         </div>
-        <p>
+        <p className='text-xl mt-2'>
         Lorem impsdjoadsssssssssssssssssssssssssssssssssxsadasd
-
         </p>
         </div>
     </div>
