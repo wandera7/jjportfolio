@@ -1,4 +1,4 @@
-import bootstrap from '../assets/jnew.png'
+import bootstrap from '../assets/bootstrap.png'
 import cplus from '../assets/cplus.png'
 import css from '../assets/css.png'
 import django from '../assets/django.png'
@@ -12,6 +12,8 @@ import reactjs from '../assets/reactjs.png'
 import ruby from '../assets/ruby.png'
 import sql from '../assets/sql.png'
 import rubyonrails from '../assets/rubyonrails.png'
+import mongo from '../assets/mongo.png'
+
 
 
 export const data =[
@@ -81,14 +83,14 @@ export const data =[
         name:"SQL"
     },
     {
-        id:13,
-        source:github,
-        name:"GitHub"
+        id:14,
+        source:mongo,
+        name:"Mongo DB"
     },
     {
-        id:14,
-        source:html,
-        name:"HTML"
+        id:15,
+        source:github,
+        name:"GitHub"
     },
 
 ]
