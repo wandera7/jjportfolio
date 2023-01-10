@@ -10,7 +10,8 @@ const About = () => {
             </p>
         </div>
         <p className='text-xl mt-2'>
-        Lorem impsdjoadsssssssssssssssssssssssssssssssssxsadasd
+        I'm Julius Wandera from Nairobi,Kenya.A dedicated and performance-driven Software Engineer with a pro-active approach and determination to successfully finish all assigned projects within budget and schedule.
+        Effective team player offering extraordinary analytical skills and the important ability to think critically.
         </p>
         </div>
     </div>

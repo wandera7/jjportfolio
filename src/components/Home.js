@@ -27,7 +27,7 @@ const Home = () => {
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md ' >
                     I have over 5 years of experience building and developing software.
-                    Currently, I love to work on web application using technologies like React,Tailwind,Ruby on Rails ,Node and SQL
+                    Currently, I love to work on web applications using technologies like React,Tailwind,Ruby on Rails ,Node and SQL
                 </p>
                 <div>
                     <Link to='Projects' smooth duration={500} className='text-white group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
