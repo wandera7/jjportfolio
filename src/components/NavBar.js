@@ -9,7 +9,7 @@ const NavBar = () => {
         <div>
             <h1 className='text-5xl font-signature ml-2'>Wanderajr</h1>
         </div>
-        <ul className='hidden lg:flex '>
+        <ul className='hidden lg:flex'>
         {
             links.map((link,index)=><li key={index} className="px-6 text-xl cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"><Link to={link} smooth duration={500}>{link}</Link></li>)
         }
