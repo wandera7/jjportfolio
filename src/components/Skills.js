@@ -5,8 +5,8 @@ const Skills = () => {
     <div name="Skills" className='bg-gradient-to-b from-gray-800 to-black  text-white md:h-screen'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col text-white justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline p-2 border-b-4 border-gray-500'>Skills</p>
-                <p className='py-6'>These are the technologies I work with</p>
+                <p className='text-6xl font-bold inline p-2 border-b-4 border-gray-500'>Skills</p>
+                <p className='py-6 text-3xl'>These are the technologies I work with</p>
             </div>
             <div className='grid grid-cols-2  lg:grid-cols-6 gap-8 px-12 text-center sm:px-0 '>
             {

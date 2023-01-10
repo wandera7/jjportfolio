@@ -13,6 +13,9 @@ import ruby from '../assets/ruby.png'
 import sql from '../assets/sql.png'
 import rubyonrails from '../assets/rubyonrails.png'
 import mongo from '../assets/mongo.png'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 
 
@@ -95,4 +98,46 @@ export const data =[
 
 ]
 
+export const links=[
+    {
+        id:1,
+        child:(
+            <>
+             LinkedIn <FaLinkedin size={30}/>
+            </>
+        ),
+        href:'https://www.linkedin.com/in/julius-wandera/',
+        style:'rounded-tr-md'
+    },
+    {
+        id:2,
+        child:(
+            <>
+             Github <FaGithub size={30}/>
+            </>
+        ),
+        href:'https://github.com/wandera7',
 
+    },
+    {
+        id:3,
+        child:(
+            <>
+             Mail <HiOutlineMail size={30}/>
+            </>
+        ),
+        href:'mailto:wanderajjr@gmail.com',
+    },
+    {
+        id:4,
+        child:(
+            <>
+             Resume <BsFillPersonLinesFill size={30}/>
+            </>
+        ),
+        href:'/wandajj.pdf',
+        style:'rounded-br-md',
+        download:true
+    }
+
+]
