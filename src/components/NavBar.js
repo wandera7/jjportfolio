@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { Link } from 'react-scroll';
 const NavBar = () => {
-    const links=["Home","About", "Portfolio", "Skills" ,"Contact"];
+    const links=["Home","About", "Projects", "Skills" ,"Contact"];
     const [showIcon,setShowIcon] = useState(false);
   return (
     <div className='flex justify-between items-center w-full h-20 text-white px-4 bg-black fixed'>
