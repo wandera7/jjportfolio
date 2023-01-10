@@ -26,7 +26,7 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-white mt-10'>
                     {`I'm a ${skills[count]} Developer`}
                 </h2>
-                <p className='text-gray-500 py-4 max-w-md ' >
+                <p className='text-gray-500 text-xl py-4 max-w-md ' >
                     I have over 5 years of experience building and developing software.
                     Currently, I love to work on web applications using technologies like React,Tailwind,Ruby on Rails ,Node and SQL
                 </p>
