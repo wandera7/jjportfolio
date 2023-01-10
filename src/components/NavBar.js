@@ -9,9 +9,9 @@ const NavBar = () => {
         <div>
             <h1 className='text-5xl font-signature ml-2'>Wanderajr</h1>
         </div>
-        <ul className='hidden lg:flex'>
+        <ul className='hidden md:flex'>
         {
-            links.map((link,index)=><li key={index} className="px-6 text-xl cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"><Link to={link} smooth duration={500}>{link}</Link></li>)
+            links.map((link,index)=><li key={index} className="px-6 text-xl cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200"><Link to={link} smooth duration={500}>{link}</Link></li>)
         }
         </ul>
         <div onClick={()=>setShowIcon(!showIcon)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
